@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 필기</title>
+</head>
+<body>
+    <!-- 제목과 본문 -->
+    <h1>11111111111111111</h1>
+    <h2>22222222222222222</h2>
+    <h3>33333333333333333</h3>
+    <h4>44444444444444444</h4>
+    <h5>55555555555555555</h5>
+    <h6>66666666666666666</h6>
+
+    <p>ppp<br/>pppppppppppppp</p>
+    <p> <a href="https://dapin9104.postype.com/">새틴바우어 - 포스트</a> </p>
+
+    <p>i tag : 기울임 (예) <i>ITALY</i></p>
+    <p>sup tag : 위 첨자 (예) MY <sup>sup</sup> home</p>
+    <p>ins tag : 밑줄 (예) <ins>ins tag</ins></p>
+    <p>del tag : 취소선 (예) <del>del</del></p>
+
+    <!-- 리스트 -->
+    <p>unordered list</p>
+    <ul>
+        <li>fac 1</li>
+        <li>fac 2</li>
+        <li>fac 3</li>
+    </ul>
+    <br/>
+    <p>ordered list</p>
+    <ol>
+        <li>fac 1</li>
+        <li>fac 2</li>
+        <li>fac 3</li>
+    </ol>
+    <br/>
+    <p>ordered list with hyperlink</p>
+    <ol>
+        <li><a href="https://dapin9104.postype.com/" target="_blank">postype in new tap</a></li>
+        <li><a href="https://blog.naver.com/dogbulkyy" target="_self">naver blog in this tap</a></li>
+    </ol>
+    <br/>
+    <dl>
+        <dt>dotless list 1</dt>
+        <dd>fac 1</dd>
+        <dd>fac 2</dd>
+        <dd>fac 3</dd>
+
+        <dt>dotless list 2</dt>
+        <dd>fac 4</dd>
+        <dd>fac 5</dd>
+        <dd>fac 6</dd>
+    </dl>
+    <br/>
+    <p>ordered list in unordered list</p>
+    <!-- Warning : Element ol is not allowed here.
+     웹 표준에 안 맞는 것으로 추정됨. -->
+    <ul>
+        <li>ol 1</li>
+        <li>o-fac 1-1</li>
+        <li>o-fac 1-2</li>
+        <li>o-fac 1-3</li>
+        <li>ol 2</li>
+        <li>o-fac 2-1</li>
+        <li>o-fac 2-2</li>
+        <li>o-fac 2-3</li>
+    </ul>
+
+    <!-- 표 그리기 -->
+    <table border="1"> <!-- border 정수만 가능 -->
+        <tr> <!-- row -->
+            <td>(0, 0)</td> <!-- colunm -->
+            <td>(0, 1)</td>
+            <td>(0, 2)</td>
+        </tr>
+        <tr>
+            <td>(1, 0)</td>
+            <td>(1, 1)</td>
+            <td>(1, 2)</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <table border="1">
+        <tr>
+            <td rowspan="3">(0:3, 0)</td> <!-- 세로로 합침 -->
+        </tr>
+        <tr>
+            <td colspan="2">(1, 0:2)</td> <!-- 가로로 합침 -->
+            <td>(1, 2)</td>
+        </tr>
+        <tr>
+            <td>(2, 0)</td>
+            <td>(2, 1)</td>
+            <td>(2, 2)</td>
+        </tr>
+    </table>
+
+    <!-- display image -->
+    <p><img src="image+name.png" alt="local image"></p>
+    <p><img src="https://cdn.pixabay.com/photo/2022/01/31/12/46/bird-6983434_1280.jpg" alt="online image"></p>
+    <p><img src="#none" alt="can't load image"></p>
+    <p><img src="https://cdn.pixabay.com/photo/2022/01/31/12/46/bird-6983434_1280.jpg" alt="size defined image" width="500"></p>
+
+    <!-- show video by 2 ways -->
+    <!-- (1) -->
+    <video controls="controls">
+        <source src="#.mp4" type="video/mp4"/>
+    </video>
+    <!-- (2) Warning : Attribute type is not allowed here.
+    type="video/mp4"을 여기다 쓰면 안된다고 한다.
+    <video src="#.mp4" type="video/mp4" controls="controls"></video> -->
+
+    <!-- make form -->
+    <!-- action : 이 폼을 제출할 서버 링크가 들어감,
+    method : get은 폼 링크에 정보가 그대로 표시되고, post는 암호화되어 링크에 표시되지 않는다. -->
+    <form action="#" method="get">
+        name : <input type="text" name="username"/><br/>
+        ID : <input type="text" name="userID"/><br/>
+        <!-- 비밀번호는 password 타입으로 해야 입력이 가려진다 -->
+        password : <input type="password" name="userPW"/><br/>
+        phone number : <input type="text" name="userTEL1" size="5"/>
+        - <input type="text" name="userTEL2" size="5"/>
+        - <input type="text" name="userTEL3" size="5"/><br/>
+        profile image : <input type="file" name="userprofile"/><br/>
+        <!-- radio : 단일 선택, checkbox : 다중 선택 -->
+        gender : <input type="radio" name="gender" value="M"/> Male
+        <input type="radio" name="gender" value="W"/> Female
+        <input type="radio" name="gender" value="O"/> Other<br/>
+        language : <input type="checkbox" name="lang" value="ko" checked="checked"/> Korean
+        <input type="checkbox" name="lang" value="en"/> English
+        <input type="checkbox" name="lang" value="jp"/> Japanese
+        <input type="checkbox" name="lang" value="ch"/> Chinese<br/>
+        introduce : <textarea rows="5" cols="20">default</textarea><br/>
+        <!-- select : 단일선택이 기본, multiple 다중 선택 옵션 -->
+        country : <select>
+            <option>Korea</option>
+            <option>USA</option>
+            <option>Japan</option>
+            <option>China</option>
+        </select><br/>
+        favorite food : <select multiple="multiple">
+            <option>rice</option>
+            <option>pizza</option>
+            <option>sushi</option>
+            <option>I don't know how to write chinese food in english</option>
+        </select><br/>
+        <!-- 제출 버튼 만들기 -->
+        <input type="submit"/>
+    </form>
+
+    <!-- 레이아웃 구성 태그 -->
+    <!-- div : 요소를 세로로 쌓음, span : 요소를 가로로 나열 -->
+    <!-- div 안에 span을 넣으면 서랍장을 만들 수 있다? -->
+    <div>div 1</div>
+    <div>div 2</div>
+    <div>div 3</div>
+
+    <span>span 1</span> <span>span 2</span> <span>span 3</span>
+</body>
+</html>
