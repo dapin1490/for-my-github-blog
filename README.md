@@ -1,4 +1,4 @@
-# for-my-github-blog
+# study-note
 
 email : dapin1490@gmail.com
 
