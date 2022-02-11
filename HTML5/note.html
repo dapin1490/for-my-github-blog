@@ -21,6 +21,7 @@
     <p>ins tag : 밑줄 (예) <ins>ins tag</ins></p>
     <p>del tag : 취소선 (예) <del>del</del></p>
 
+
     <!-- 리스트 -->
     <p>unordered list</p>
     <ul>
@@ -68,6 +69,7 @@
         <li>o-fac 2-3</li>
     </ul>
 
+
     <!-- 표 그리기 -->
     <table border="1"> <!-- border 정수만 가능 -->
         <tr> <!-- row -->
@@ -98,11 +100,13 @@
         </tr>
     </table>
 
+
     <!-- display image -->
     <p><img src="image+name.png" alt="local image"></p>
     <p><img src="https://cdn.pixabay.com/photo/2022/01/31/12/46/bird-6983434_1280.jpg" alt="online image"></p>
     <p><img src="#none" alt="can't load image"></p>
     <p><img src="https://cdn.pixabay.com/photo/2022/01/31/12/46/bird-6983434_1280.jpg" alt="size defined image" width="500"></p>
+
 
     <!-- show video by 2 ways -->
     <!-- (1) -->
@@ -112,6 +116,7 @@
     <!-- (2) Warning : Attribute type is not allowed here.
     type="video/mp4"을 여기다 쓰면 안된다고 한다.
     <video src="#.mp4" type="video/mp4" controls="controls"></video> -->
+
 
     <!-- make form -->
     <!-- action : 이 폼을 제출할 서버 링크가 들어감,
@@ -151,6 +156,7 @@
         <input type="submit"/>
     </form>
 
+
     <!-- 레이아웃 구성 태그 -->
     <!-- div : 요소를 세로로 쌓음, span : 요소를 가로로 나열 -->
     <!-- div 안에 span을 넣으면 서랍장을 만들 수 있다? -->
@@ -159,5 +165,52 @@
     <div>div 3</div>
 
     <span>span 1</span> <span>span 2</span> <span>span 3</span>
+
+
+    <!-- div로 레이아웃 잡기 -->
+    <div> <!-- header -->
+        <h1>HEADER</h1>
+        <hr/>
+    </div>
+
+    <div> <!-- nav -->
+        <ul>
+            <li>menu 1</li>
+            <li>menu 2</li>
+            <li>menu 3</li>
+        </ul>
+        <hr/>
+    </div>
+
+    <div> <!-- section -->
+        <h1>What is HTML5?</h1>
+        <p>paragraph</p>
+        <hr/>
+    </div>
+
+    <div> <!-- footer -->
+        <p>Seoul, on Earth</p>
+    </div>
+
+    <!-- semantic 태그로 레이아웃 잡기 -->
+    <header>
+        <h1>make my study note</h1>
+        <hr/>
+    </header>
+    <nav>
+        <ul>
+            <li>&lt;li&gt; is list</li>
+            <li>this is another list</li>
+        </ul>
+        <hr/>
+    </nav>
+    <section>
+        <h1>how can I note this?</h1>
+        <p>use reverse-slash</p>
+        <hr/>
+    </section>
+    <footer>
+        <p>live in Seoul, on Earth</p>
+    </footer>
 </body>
 </html>
