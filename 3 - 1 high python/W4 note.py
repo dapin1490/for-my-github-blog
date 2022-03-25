@@ -61,7 +61,9 @@ print_from_val(12, 11)  # input error
 # 예시
 def example(**param):
     for key, val in param.items():
-        print("%d : %d" % (key, val))
+        print("{} : {}".format(key, val))
+
+example(a = 1, b = 2, c = "3")  # key는 따옴표 없이, value는 문자열이라면 따옴표 사용
 
 
 # pass : 아무 짓도 안 하고 넘겨야 하지만 자리는 채워야 할 때
