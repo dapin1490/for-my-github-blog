@@ -66,5 +66,5 @@ void main()
 	// 절대경로 : 하드디스크 드라이브부터 시작해 파일이 실제 있는 곳까지 그 경로를 모두 표시함
 	// 상대경로 : 현재 이 소스 코드의 파일이 있는 폴더를 기준으로 상대적 위치를 표현함
 	// ex) "../bracket.txt"라고 쓰면 이 소스 코드의 폴더로부터 한 단계 상위의 폴더로 나간 다음 지정한 텍스트 파일을 찾음
-	CheckMatching("bracket_test.txt");
+	CheckMatching("ds_W6_bracket_test.txt");
 }
