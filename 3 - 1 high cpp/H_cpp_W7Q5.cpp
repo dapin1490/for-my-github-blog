@@ -1,3 +1,14 @@
+/*
+이름과 수학점수와 영어 점수를 멤버 변수로 하는 구조체 Student를 정의하고
+Student 타입의 배열을 정의하여 총점이 제일 높은 사람의 이름과 점수를 출력하는 프로그램을 작성하시오.
+
+John 95 100
+Kim 100 98
+Lee 85 90
+Chris 88 90
+Young 92 88
+*/
+
 #include <iostream>
 using namespace std;
 
