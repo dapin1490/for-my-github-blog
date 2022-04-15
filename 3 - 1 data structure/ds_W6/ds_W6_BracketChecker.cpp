@@ -1,9 +1,8 @@
 #include "ds_W6_ArrayStack.h"
 
-// 전역 변수로 플래그 추가 : false일 때는 문제가 없음, true일 때는 문제가 있음
-bool flag = false;
-
 int CheckMatching(const char* filename ) {
+	// 플래그 추가 : false일 때는 문제가 없음, true일 때는 문제가 있음
+	bool flag = false;
 	
 	int nLine = 1, nChar = 0;
 	char	ch;
