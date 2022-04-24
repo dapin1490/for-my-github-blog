@@ -14,8 +14,8 @@
 강의 자료 원형큐 코드 응용 구현   
    
 문제 6. [Q6.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/data%20structure/mid%20test/Q6.cpp)   
-   
+원형큐 내용물 예상하기   
    
 문제 7. [Q7.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/data%20structure/mid%20test/Q7.cpp)   
-   
+강의 자료 연결리스트 스택 코드 응용 구현   
    

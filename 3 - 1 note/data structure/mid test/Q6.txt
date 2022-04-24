@@ -1,0 +1,14 @@
+크기가 7인 원형큐 A에 다음과 같이 삽입과 삭제가 되풀이 되었을 경우에
+각 단계에서 원형큐의 내용(1차원 배열의 내용, front, rear의 값)을 나타내라.
+
+초기 배열 : { _, _, _, _, _, _, _ } front = 0, rear = 0
+
+A.enqueue(1); // { _, 1, _, _, _, _, _ } front = 0, rear = 1
+A.enqueue(2); // { _, 1, 2, _, _, _, _ } front = 0, rear = 2
+A.enqueue(3); // { _, 1, 2, 3, _, _, _ } front = 0, rear = 3
+A.dequeue( ); // { _, _, 2, 3, _, _, _ } front = 1, rear = 3
+A.enqueue(4); // { _, _, 2, 3, 4, _, _ } front = 1, rear = 4
+A.enqueue(5); // { _, _, 2, 3, 4, 5, _ } front = 1, rear = 5
+A.enqueue(6); // { _, _, 2, 3, 4, 5, 6 } front = 1, rear = 6
+A.enqueue(7); // { 7, _, 2, 3, 4, 5, 6 } front = 1, rear = 0
+A.dequeue( ); // { 7, _, _, 3, 4, 5, 6 } front = 2, rear = 0
