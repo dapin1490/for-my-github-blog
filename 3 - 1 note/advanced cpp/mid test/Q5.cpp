@@ -14,6 +14,7 @@ char name[10];
 int math;
 int eng;
 /// (1) ////
+double total;
 }Student;
 
 void main()
@@ -35,6 +36,22 @@ void main()
    S[4].math = 92;
    S[4].eng = 80;
 
-   /// (2) ///   
+   /// (2) ///
+   for (int i = 0; i < N; i++) {
+      S[i].total = double(S[i].math) * 0.6 + double(S[i].eng) * 0.4;
+   }
 
+   int max_idx1, max_idx2;
+   max_idx1 = 0;
+   max_idx2 = 0;
+   for (int i = 0; i < N; i++) {
+      if (S[i].total > S[max_idx1].total)
+         max_idx1 = i;
+      if (S[i].total > S[max_idx2].total && S[i].total <= S[max_idx1].total && i != max_idx1) {
+         max_idx2 = i;
+      }
+   }
+
+   cout << "합격자 1 : " << S[max_idx1].name << "\n";
+   cout << "합격자 2 : " << S[max_idx2].name << "\n";
 }
