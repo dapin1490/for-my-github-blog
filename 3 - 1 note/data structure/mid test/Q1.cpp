@@ -13,6 +13,9 @@ int algorithm(int key, int[] List) // 왜 오류나는지 모르겠음
 {
     int LI = 0;
     int HI = size(List) - 1; // 배열 크기를 이렇게 간단히 구할 수 없긴 한데 그것까지 생각할 시간이 없었음
+        // 교수의 답안
+        // sizeof(List) / sizeof(int) - 1;
+		// 리스트가 함수로 전달된 것이기 때문에 이 방법도 물론 오류가 난다. 교수가 문제를 잘못 냈다. 답안은 어떻게 쓰든 정답처리한다고 함.
     int Mid = (LI + HI) / 2; // 이 줄이 while 안에 들어가야 맞음!!! 근데 시험볼때는 헷갈려서 밖에 썼음
     while (LI <= HI) {
         if (List[Mid] == key)
