@@ -12,7 +12,7 @@ sum(1) = 1
 sum(4~1) = 10
 */
 
-int nsum(int start);
+int nsum(int start = 1); // 디폴트 매개변수는 함수를 두 번 선언했을 경우 두 선언 중 한 쪽에만 정의할 수 있다. 두 선언에서 모두 정의하면 오류난다.
 
 int main()
 {
