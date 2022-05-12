@@ -47,7 +47,7 @@ public:
 		printf("password setted\n");
 	}
 
-	bool checkId(const char* i) { return ((strcmp(id, i) == 0) ? true : false); }
+	bool checkId(char* i) { return ((strcmp(id, i) == 0) ? true : false); }
 	bool checkPw(string p) { return pw == p; }
 };
 
