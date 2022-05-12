@@ -55,3 +55,11 @@
 과제 10의 데이터를 그대로 사용하여, 내림 차순으로 이름과 성적을 보여주세요.   
 \- **구조체**   
 \- **선택 정렬**   
+   
+   
+12. [H_cpp_W9HW12.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/W9/H_cpp_W9HW12.cpp)   
+조건에 따라 `class Person`을 만들고 제시된 프로그램을 구현.   
+(1) 수학 점수 상위 3명을 출력하는 프로그램   
+(2) (1)의 프로그램을 함수 `void display_top3(Person *p, int n)`로 구현   
+(3) 영어, 수학 점수를 3:7로 반영하여 상위 3명을 출력하는 프로그램   
+(4) 조건에 맞게 로그인 프로그램 구현   
