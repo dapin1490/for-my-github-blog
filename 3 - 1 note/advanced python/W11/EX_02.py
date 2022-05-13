@@ -29,3 +29,27 @@ def rgb2gray(rgb):
 arr4 = rgb2gray(arr1)
 plt.imshow(arr4, cmap = "gray")
 plt.show()
+
+# ------------------------
+
+# 한 figure에 모아서 보기
+
+plt.figure(figsize=(20, 20))
+
+plt.subplot(2, 2, 1) # row의 개수, column의 개수, 몇 번째
+plt.imshow(arr1)
+plt.xlabel("1. original", fontdict={"fontsize":20})
+
+plt.subplot(2, 2, 2)
+plt.imshow(arr2)
+plt.xlabel("2. clip", fontdict={"fontsize":20})
+
+plt.subplot(2, 2, 3)
+plt.imshow(arr3)
+plt.xlabel("3. flip", fontdict={"fontsize":20})
+
+plt.subplot(2, 2, 4)
+plt.imshow(arr4, cmap = "gray")
+plt.xlabel("4. grayscale", fontdict={"fontsize":20})
+
+plt.show()
