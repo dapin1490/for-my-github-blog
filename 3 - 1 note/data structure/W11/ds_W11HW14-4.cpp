@@ -35,6 +35,7 @@ long long fibo_iteration(long long n)
 
 	if (n <= 2)
 		return 1;
+	
 	ans = 0;
 	for (int i = 3; i <= n; i++) {
 		ans = 3 * f2 + 2 * f1 + f0;
