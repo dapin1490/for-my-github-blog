@@ -22,7 +22,7 @@ step_one()
 	# 단 검증 출력의 경우 행 번호에 맞춰 True/False 여부만 출력
 def step_two():
     data = pd.read_csv("seoul_cctv.csv", thousands = ',', encoding='cp949')
-    data["sum_years"] = data.iloc[:, 2:10].sum(axis=1)  # 인덱스로 직접 추출 start:end 하면 start부터 (end - 1)까지. 두 인자의 순서는 행, 열
+    data["sum_years"] = np.sum(data.iloc[:, 2:10], axis=1)  # 인덱스로 직접 추출 start:end 하면 start부터 (end - 1)까지. 두 인자의 순서는 행, 열
     data["is_sum_same"] = True if data["소계"].all() == data["sum_years"].all() else False
     print(data["is_sum_same"])
     return
