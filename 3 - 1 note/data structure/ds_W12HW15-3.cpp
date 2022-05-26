@@ -25,7 +25,7 @@ public:
 		weight = w;
 	}
 
-	void display() { printf("age : %d, weight : %d\n", age, weight); }
+	void display() { printf("age %d, weight %d\n", age, weight); }
 };
 
 class PCQ {
@@ -66,6 +66,14 @@ public:
 		return *(que + front);
 	}
 
+	int q_size() { return size; } // 큐의 전체 길이
+	int count() { // 현재 큐에 있는 원소 개수
+		if (isEmpty())
+			return 0;
+		else
+			return (((front < rear) ? rear : rear + size) - front);
+	}
+
 	void display() {
 		printf("display the queue:\n");
 
@@ -85,13 +93,18 @@ public:
 
 int main()
 {
-	int s; // 실제 사이즈는 지정한 크기보다 1 작음 : 원형큐라서 한 칸은 비워둬야 하기 때문
-	int roop;
+	int s = 10; // 실제 사이즈는 지정한 크기보다 1 작음 : 배열로 구현한 원형큐라서 한 칸은 비워둬야 하기 때문
+	int roop = 5; // 1 roop == 2 second
+	int dq_rate = 2; // dequeue 확률은 1/dq_rate
 
+	/*
 	printf("input queue size : ");
 	cin >> s;
 	printf("input roop count : ");
 	cin >> roop;
+	printf("input dequeue rate by integer(1/dequeue rate) : ");
+	cin >> dq_rate;
+	*/
 
 	PCQ q(s); // 원형큐 선언, 소멸자는 프로그램 종료 시 자동 호출
 
@@ -100,23 +113,26 @@ int main()
 
 	for (int i = 0; i < roop; i++) {
 		printf("roop : %d\n", i + 1);
-		
+
 		Sleep(1000); // 1초 정지
 
 		int a = rand() % 101;
 		int w = rand() % 201;
 		q.enqueue(Person(a, w));
-		printf("enqueued : %d, %d\n", a, w);
-		
+		printf("enqueued + age %d, weight %d\n", a, w);
+
 		Sleep(1000); // 1초 정지
 
-		if (rand() % 2 == 1) { // 0.5 확률
+		if (rand() % dq_rate == 0) { // 기본값 2 -> 0.5 확률
 			Person dq = q.dequeue();
-			printf("dequeued : ");
+			printf("dequeued - ");
 			dq.display();
 		}
 
 		q.display();
+
+		if (q.count() >= 5)
+			break;
 	}
 
 	return 0;
