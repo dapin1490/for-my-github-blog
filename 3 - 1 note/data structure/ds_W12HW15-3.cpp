@@ -82,7 +82,7 @@ public:
 			return;
 		}
 
-		int end = (front < rear) ? rear : rear + size;
+		int end = (front <= rear) ? rear : rear + size;
 		for (int i = front + 1; i <= end; i++)
 			(que + (i % size))->display();
 		printf("\n\n");
