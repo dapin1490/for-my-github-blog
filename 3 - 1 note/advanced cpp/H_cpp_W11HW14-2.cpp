@@ -26,7 +26,7 @@ public:
 	int* getInfo() { return info; }
 
 	int getArea() { return info[2] * info[3]; }
-	int getRound() { return 2 * (info[0] + info[1]); }
+	int getRound() { return 2 * (info[2] + info[3]); }
 
 	void display() {
 		printf("point : (%d, %d), length : (%d, %d)\n", info[0], info[1], info[2], info[3]);
@@ -34,7 +34,7 @@ public:
 };
 
 bool cmp_area(Rect a, Rect b) { return a.getArea() > b.getArea(); }
-bool cmp_round(Rect a, Rect b) { return a.getRound() < b.getRound(); }
+bool cmp_round(Rect a, Rect b) { return a.getRound() > b.getRound(); }
 
 int main()
 {
