@@ -45,7 +45,12 @@ public:
 
 	void display()
 	{
-		printf("in the queue : ");
+		printf("display the queue : ");
+	
+		if (isEmpty()) {
+			printf("there is no entity for display\n\n");
+			return;
+		}
 
 		int end = (front < rear) ? rear : rear + size;
 		for (int i = front + 1; i < end; i++)
