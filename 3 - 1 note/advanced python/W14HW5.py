@@ -7,7 +7,7 @@ def make_sample(dt, cnt):
 def sample_mean(sam, n, m):
     cols = list(sam.columns)
     for i in range(3):
-        m[n][i] = sam[cols[i]].sum() / sam[cols[i]].count()  # 100개니까 100으로 나눠도 됨
+        m[n][i] = sam[cols[i]].sum() / sam[cols[i]].count()
     return
 
 def sample_v(sam, n, m, v):
