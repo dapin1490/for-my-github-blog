@@ -63,3 +63,62 @@
 (2) (1)의 프로그램을 함수 `void display_top3(Person *p, int n)`로 구현   
 (3) 영어, 수학 점수를 3:7로 반영하여 상위 3명을 출력하는 프로그램   
 (4) 조건에 맞게 로그인 프로그램 구현   
+   
+   
+13-1. [H_cpp_W10HW13-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-1.cpp)   
+main에서 배열 선언 후 함수 정의하여 정렬   
+\- **선택 정렬**   
+   
+   
+13-2. [H_cpp_W10HW13-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-2.cpp)   
+swap 함수 정의 후 사용   
+   
+   
+13-3. [H_cpp_W10HW13-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-3.cpp)   
+13-1과 13-2 합치기   
+   
+   
+13-4. [H_cpp_W10HW13-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-4.cpp)   
+조건에 따라 `class Hitter`를 만들고 인스턴스 생성 후 조건에 따라 정렬   
+\- **클래스** 생성 및 활용   
+\- **선택 정렬**   
+   
+   
+14-1. [H_cpp_W11HW14-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-1.cpp)   
+main에서 배열 선언하고 두 가지 order에 따라 정렬   
+\- **선택 정렬**   
+   
+   
+14-2. [H_cpp_W11HW14-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-2.cpp)   
+지정된 멤버 변수를 포함하는 `class Rect`를 만들고 주어진 인스턴스 생성 후 조건에 따라 정렬   
+\- **클래스** 생성 및 활용   
+\- **선택 정렬**   
+   
+   
+14-3. opencv 예제 코드 실행 후 결과 이미지 캡쳐하여 제출   
+   
+   
+14-4. [H_cpp_W11HW14-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-4.cpp)   
+14-2에서 생성한 클래스를 opencv 예제 코드에 적용   
+\- **`opencv`** 활용   
+   
+   
+15-1. [H_cpp_W12HW15-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-1.cpp)   
+주어진 조건에 따라 `class Rect` 만들고 인스턴스 생성 후 정렬 함수 만들어 정렬   
+\- **클래스** 생성 및 활용   
+\- **선택 정렬**   
+\- 함수에 함수를 인자로 전달   
+   
+   
+15-2. [H_cpp_W12HW15-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-2.cpp)   
+`class Rect` 만들고 `swap` 함수 구현   
+   
+   
+15-3. [H_cpp_W12HW15-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-3.cpp)   
+15-1과 15-2 합치기   
+   
+   
+15-4. [H_cpp_W12HW15-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-4.cpp)   
+opencv 예제 코드에 `class Rect` 끼워넣어 지정된 크기의 이미지 안에서 튕기며 돌아다니는 사각형 출력   
+\- **클래스** 생성 및 활용   
+\- `opencv` 활용   
