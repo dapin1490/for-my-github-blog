@@ -81,7 +81,7 @@ Node 와 LinkedStack 클래스와 기존에 제공한 괄호체크 코드를 합
    
    
 과제 15-3 - [ds_W12HW15-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/data%20structure/ds_W12HW15-3.cpp)   
-나이, 몸무게를 member variable로 갖는 class Person을 선언하고, 이를 담는 원형큐를 구현. 1초에 한명씩 랜덤하게 발생한 나이(0~100), 몸무게(0~200)을 가진 사람이 enqueue 되고, 최초 사람이 enqueue된 이후 1초 후부터 랜덤하게 사람이 dequeue 되도록 프로그램을 구현한다. ([1초 지연을 위해 Sleep() 함수를 활용하기 바랍니다.](https://hijuworld.tistory.com/52))   
+나이, 몸무게를 member variable로 갖는 class Person을 선언하고, 이를 담는 원형큐를 구현. 1초에 한명씩 랜덤하게 발생한 나이(0\~100), 몸무게(0\~200)을 가진 사람이 enqueue 되고, 최초 사람이 enqueue된 이후 1초 후부터 랜덤하게 사람이 dequeue 되도록 프로그램을 구현한다. ([1초 지연을 위해 Sleep() 함수를 활용하기 바랍니다.](https://hijuworld.tistory.com/52))   
    
    
 과제 15-4 - [ds_W12HW15-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/data%20structure/ds_W12HW15-4.cpp)   
