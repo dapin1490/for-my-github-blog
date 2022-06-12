@@ -63,8 +63,6 @@ int main()
     int i = 0;
     int mx = 640, my = 480;
 
-    ::MyRect rc = ::MyRect(1, 1, 32, 32, 3, 3);
-
     Mat rawimg, drawimg;
 
     namedWindow("img-raw", cv::WINDOW_AUTOSIZE);
