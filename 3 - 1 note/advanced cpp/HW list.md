@@ -65,60 +65,78 @@
 (4) 조건에 맞게 로그인 프로그램 구현   
    
    
-13-1. [H_cpp_W10HW13-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-1.cpp)   
+13. (13-1) [H_cpp_W10HW13-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-1.cpp)   
 main에서 배열 선언 후 함수 정의하여 정렬   
 \- **선택 정렬**   
    
    
-13-2. [H_cpp_W10HW13-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-2.cpp)   
+13. (13-2) [H_cpp_W10HW13-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-2.cpp)   
 swap 함수 정의 후 사용   
    
    
-13-3. [H_cpp_W10HW13-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-3.cpp)   
+13. (13-3) [H_cpp_W10HW13-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-3.cpp)   
 13-1과 13-2 합치기   
    
    
-13-4. [H_cpp_W10HW13-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-4.cpp)   
+13. (13-4) [H_cpp_W10HW13-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W10HW13-4.cpp)   
 조건에 따라 `class Hitter`를 만들고 인스턴스 생성 후 조건에 따라 정렬   
 \- **클래스** 생성 및 활용   
 \- **선택 정렬**   
    
    
-14-1. [H_cpp_W11HW14-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-1.cpp)   
+14. (14-1) [H_cpp_W11HW14-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-1.cpp)   
 main에서 배열 선언하고 두 가지 order에 따라 정렬   
 \- **선택 정렬**   
    
    
-14-2. [H_cpp_W11HW14-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-2.cpp)   
+14. (14-2) [H_cpp_W11HW14-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-2.cpp)   
 지정된 멤버 변수를 포함하는 `class Rect`를 만들고 주어진 인스턴스 생성 후 조건에 따라 정렬   
 \- **클래스** 생성 및 활용   
 \- **선택 정렬**   
    
    
-14-3. opencv 예제 코드 실행 후 결과 이미지 캡쳐하여 제출   
+14. (14-3) opencv 예제 코드 실행 후 결과 이미지 캡쳐하여 제출   
    
    
-14-4. [H_cpp_W11HW14-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-4.cpp)   
+14. (14-4) [H_cpp_W11HW14-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W11HW14-4.cpp)   
 14-2에서 생성한 클래스를 opencv 예제 코드에 적용   
 \- **`opencv`** 활용   
    
    
-15-1. [H_cpp_W12HW15-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-1.cpp)   
+15. (15-1) [H_cpp_W12HW15-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-1.cpp)   
 주어진 조건에 따라 `class Rect` 만들고 인스턴스 생성 후 정렬 함수 만들어 정렬   
 \- **클래스** 생성 및 활용   
 \- **선택 정렬**   
 \- 함수에 함수를 인자로 전달   
    
    
-15-2. [H_cpp_W12HW15-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-2.cpp)   
+15. (15-2) [H_cpp_W12HW15-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-2.cpp)   
 `class Rect` 만들고 `swap` 함수 구현   
    
    
-15-3. [H_cpp_W12HW15-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-3.cpp)   
+15. (15-3) [H_cpp_W12HW15-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-3.cpp)   
 15-1과 15-2 합치기   
    
    
-15-4. [H_cpp_W12HW15-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-4.cpp)   
+15. (15-4) [H_cpp_W12HW15-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W12HW15-4.cpp)   
 opencv 예제 코드에 `class Rect` 끼워넣어 지정된 크기의 이미지 안에서 튕기며 돌아다니는 사각형 출력   
 \- **클래스** 생성 및 활용   
 \- `opencv` 활용   
+   
+   
+16. (16-1) [H_cpp_W13HW16-1.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W13HW16-1.cpp)   
+`class MyRect` 만들고 주어진 인스턴스 생성해 넓이가 넓은 순으로 정렬하는 프로그램 작성. `void Sort_Rect(MyRect* p_arr, int n)` 함수를 만들어 정렬하고, `opencv` 코드를 이용하여, 왼쪽에서 오른쪽 순서로 x, y를 변경하여 해당하는 사각형을 겹치지 않게 출력.   
+   
+   
+16. (16-2) [H_cpp_W13HW16-2.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W13HW16-2.cpp)   
+과제 15-4번의 충돌 관련 코드를 `MyRect`의 멤버 함수로 구현해서 동일한 기능을 수행하도록 하라   
+   
+   
+16. (16-3) [H_cpp_W13HW16-3.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W13HW16-3.cpp)   
+16-2번을 기반으로 `class MyGameTable` 선언, 게임판의 위치와 크기 `((x,y,w,h) = (0,0,640,480))`와 `MyRect`의 객체를 멤버 변수로 구현하여 동일한 기능을 수행하도록 하라   
+   
+   
+16. (16-4) [H_cpp_W13HW16-4.cpp](https://github.com/dapin1490/study-note/blob/main/3%20-%201%20note/advanced%20cpp/H_cpp_W13HW16-4.cpp)   
+16-3번을 기반으로 `MyRect`의 객체 5개를 멤버 변수로 하고, 위치와 크기는 랜덤하게 초기화한 후, 동일한 기능을 수행하도록 하라   
+   
+   
