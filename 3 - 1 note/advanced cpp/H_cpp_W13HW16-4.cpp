@@ -118,7 +118,6 @@ int main()
     // std::cout << "Hello World!\n";
     // cout << "OpenCV Version : " << CV_VERSION << endl;
 
-    namedWindow("img-raw", cv::WINDOW_AUTOSIZE);
     rawimg = Mat(gt.table.h, gt.table.w, CV_8UC3, Scalar(100, 100, 0));
     imshow("img-raw", rawimg);
     waitKey(50);
