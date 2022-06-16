@@ -65,7 +65,6 @@ int main()
 
     Mat rawimg, drawimg;
 
-    namedWindow("img-raw", cv::WINDOW_AUTOSIZE);
     rawimg = Mat(my, mx, CV_8UC3, Scalar(100, 100, 0));
     imshow("img-raw", rawimg);
     waitKey(1000);
