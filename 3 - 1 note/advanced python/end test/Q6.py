@@ -30,4 +30,4 @@ answer2 = pd.merge(SciEng, AgeKorMa, on='Student_no', how='outer')
 
 # (3) AgeKorMa에 있는 학생들에 대하여 과학 영어점수가 있는 경우에 병합
 answer3 = pd.merge(SciEng, AgeKorMa, on='Student_no', how='right')
-answer3 = answer3.dropna().reset_index(drop=True)
+answer3 = answer3.dropna().reset_index(drop=True)  # 인덱스 리셋 코드 참고 : https://seong6496.tistory.com/73
