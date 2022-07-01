@@ -22,7 +22,12 @@ AgeKorMa = pd.DataFrame({
     "Math" : [89, 82, 95, 86, 90, 85]
 })
 
+# (1) 교집합
 answer1 = pd.merge(SciEng, AgeKorMa, on='Student_no', how='inner')
+
+# (2) 합집합
 answer2 = pd.merge(SciEng, AgeKorMa, on='Student_no', how='outer')
+
+# (3) AgeKorMa에 있는 학생들에 대하여 과학 영어점수가 있는 경우에 병합
 answer3 = pd.merge(SciEng, AgeKorMa, on='Student_no', how='right')
 answer3 = answer3.dropna().reset_index(drop=True)
