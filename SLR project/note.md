@@ -83,3 +83,13 @@ SLR : 목적을 갖고, 선질문 후문헌, 구조 디자인. (1) 적절한 질
 최종 목표 : 저널 제출(해외)
 파이썬 bs4 사용 예정
 다음 미팅은 11월 30일 데마개 수업 후 강의실에서 이어서.
+
+--------------
+
+[IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp) : 페이로드 가능  
+[acm digital library](https://dl.acm.org/) : url 직접 만들어야 함  
+[springer](https://link.springer.com/) : url 직접 만들어야 함  
+[sciencedirect](https://www.sciencedirect.com/) : 리다이렉트가 있어서 그냥 크롤링할 수 없음 -> 셀레늄 크롤링 가능하나 헤드리스 불가능
+
+다음 미팅 다음주 목요일 1시 수A708호
+
